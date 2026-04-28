@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #f5f7fa;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 5%;
+}
+.card{
+    background-color:white;
+    width: 33%;
+    height: 430px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.26);
+    transition: all 0.2s linear;
+}
+.card:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 0px 15px rgba(7, 7, 7, 0.61);
+}
+.card p{
+    font-size: 15px;
+    margin: 3px 0px 3px 0px;
+}
+#formContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.from-group{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.from-group input{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid;
+    outline: none;
+}
+.from-group label{
+    font-size: 14px;
+}
+.from-group button{
+    margin-top: 2px;
+    transform: translateX(160px);
+    width: 20%;
+    border: none;
+    padding: 5px;
+    background-color: white;
+    background-color: rgba(135, 207, 235, 0.466);
+    border-radius: 5px;
+}
+.from-group button:hover{
+    background-color: skyblue;
+    box-shadow: 0px 0px 10px skyblue;
+}
+.footer-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
